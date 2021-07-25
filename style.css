@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body,
+select,
+input,
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: grid;
+}
+
+select,
+input {
+  margin-top: 5px;
+}
+
+select {
+  min-height: 32px;
+}
+
+input {
+  min-height: 26px;
+  margin-bottom: 5px;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+button {
+  min-height: 32px;
+  min-width: 32px;
+  font-weight: 600;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#car-speed-output {
+  font-weight: 600;
+}
+
+.btn-group {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.btn-group > button {
+  width: 100%;
+  font-weight: 700;
+  font-size: 24px;
+}
