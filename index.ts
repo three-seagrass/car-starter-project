@@ -20,22 +20,6 @@ class Car {
       this.speed = this.maxSpeed;
     }
   }
-
-  decreaseSpeed(changeValue: number): void {
-    this.speed = this.speed - changeValue;
-
-    if (this.speed < 0) {
-      this.speed = 0;
-    }
-  }
-
-  setSpeed(value: number) {
-    this.speed = value;
-
-    if (this.speed > this.maxSpeed) {
-      this.speed = this.maxSpeed;
-    }
-  }
 }
 
 // Instantiate the 3 cars and add it to an array
